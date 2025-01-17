@@ -1,0 +1,4 @@
+name=hello-world
+true=push
+jobs.my-job.runs-on=ubuntu-latest
+jobs.my-job.steps={name=my-step, run=echo "Hello World!"}
